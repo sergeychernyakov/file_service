@@ -39,17 +39,15 @@ To set up the app locally, follow these steps:
 
 ### File structure
 
-file_service/
-│
-├── README.md            # Project description and instructions for setup and usage
-├── config.py            # Configuration file containing project settings
-├── requirements.txt     # List of dependencies required for the project
-├── test_task_demo.mov   # Demo video for the test task (assumed)
-├── wsgi.py              # File for running the project via a WSGI-compatible server
-├── app.py               # Main application file containing the application logic
-├── storage/             # Directory for storing files processed by the service
-└── tests/               # Directory for unit and integration tests
-    ├── test_app.py      # Tests for checking the functionality of the main application
+README.md            # Project description and instructions for setup and usage
+config.py            # Configuration file containing project settings
+requirements.txt     # List of dependencies required for the project
+test_task_demo.mov   # Demo video for the test task (assumed)
+wsgi.py              # File for running the project via a WSGI-compatible server
+app.py               # Main application file containing the application logic
+storage/             # Directory for storing files processed by the service
+tests/               # Directory for unit and integration tests
+tests/test_app.py    # Tests for checking the functionality of the main application
 
 ### Configuration
 
