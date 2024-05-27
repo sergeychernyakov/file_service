@@ -12,6 +12,7 @@
 ## Requirements
 
 - Python 3.5
+- Flask==3.0.3
 
 ## Setup
 To set up the app locally, follow these steps:
